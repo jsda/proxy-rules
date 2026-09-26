@@ -9,7 +9,7 @@ cd ${GITHUB_WORKSPACE}/adguard
 
 # 定义 URL 列表
 URLS=(
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh.txt"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh.txt"
     "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomain.txt"
 )
 
@@ -46,10 +46,10 @@ mv -f "adblockdns-ios.mrs" ${GITHUB_WORKSPACE}/mihomo/rule_set_site
 
 # 定义 URL 列表
 URLS=(
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt"
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/ultimate.txt"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt"
     "https://raw.githubusercontent.com/ppfeufer/adguard-filter-list/master/blocklist"
-    "https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Xtra/domains.txt"
+    "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
 )
 
 # 下载文件

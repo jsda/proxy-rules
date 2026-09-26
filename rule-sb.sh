@@ -49,7 +49,7 @@ URLS=(
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt"
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt"
     "https://raw.githubusercontent.com/ppfeufer/adguard-filter-list/master/blocklist"
-    "https://raw.githubusercontent.com/badmojr/1Hosts/refs/heads/master/Xtra/adblock.txt"
+    "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
 )
 
 # 下载文件
